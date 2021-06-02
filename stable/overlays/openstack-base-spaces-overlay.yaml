@@ -4,6 +4,9 @@ applications:
   ceph-mon:
     bindings:
       "": *public-space
+  ceph-osd:
+    bindings:
+      "": *public-space
   ceph-radosgw:
     bindings:
       "": *public-space
